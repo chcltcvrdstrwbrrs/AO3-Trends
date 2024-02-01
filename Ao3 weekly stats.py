@@ -38,7 +38,7 @@ while weeks > 0:
         ficsverifier = [line.strip("\n") for line in ficsfound_text]
         ficsfound = ("".join(filter(str.isdigit, ficsfound_text) ))
         if ficsverifier[0].isdecimal():
-            fic_list.append(ficsfound)
+            fic_list.append(int(ficsfound))
             print(weeks+" Weeks ago: "+ficsfound)
 
     weeks = int(weeks)
