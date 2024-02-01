@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 
 fandom = "Harry+Potter+-+J.+K.+Rowling"            #the fandom you are looking at data from 
 tag = "Enemies+To+Lovers"            #this is the tag/trope you are seaching
-weeks = 3            #this is how many weeks back you are searching
+weeks = 52            #this is how many weeks back you are searching
 
 
 week_list = []
